@@ -1,3 +1,5 @@
+import style from "@/styles/footer.module.css"
+
 export default function Footer() {
-    return <footer>Header Component</footer>;
+    return <footer className={style.footerContainer}>footer Component</footer>;
   }

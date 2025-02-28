@@ -1,3 +1,12 @@
+import style from "@/styles/navbar.module.css";
+
 export default function Header() {
-    return <div>Header Component</div>;
-  }
+  return (
+    <nav className={style.navContainer}>
+      <div className={style.navbarContent}>
+        <div className={style.logoContainer}>Logo</div>
+        <div className={style.menuConatiner}>test</div>
+      </div>
+    </nav>
+  );
+}

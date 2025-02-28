@@ -1,9 +1,3 @@
-import Container from "../../components/container";
-
 export default function Services() {
-    return (
-      <section id="services-section">
-    <Container>Hello World</Container>
-  </section>
-    );
-  }
+  return <section id="services-section">Service Section</section>;
+}
